@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'Merriweather', serif;
+  font-family: Merriweather, serif;
   line-height: 1.5;
 }
 
@@ -12,7 +12,7 @@ img {
   max-width: 40px;
 }
 
-h2 {
+h1 {
   font-size: 2rem;
   color: #fff;
   padding: 0;
@@ -33,28 +33,46 @@ body {
   margin: 0;
 }
 
-nav{
+nav {
   background-color: #d05c2e;
   text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 nav ul {
+  display: inline-flex;
   list-style-type: none;
   margin: 0;
   padding: 0;
-  display: flex;
-  justify-content: center;
-  outline: 1px solid #a63f38;
 }
 
 nav li {
-  margin: 0 .4em;
-
+  margin: 0;
+  padding: .4rem 0;
+  width: 100%;
 }
 
 .btn {
   font-size: 1.125rem;
   text-decoration: none;
   color: #fff;
+  padding: 0 .5em;
+  margin: 0;
+  text-align: center;
+}
 
+.btn-cereals {
+  border: 1px solid #a63f38;
+  justify-content: space-around;
+}
+
+.btn-home {
+  outline: 1px solid #a63f38;
+  justify-content: space-around;
+}
+
+.btn-legumes {
+  outline: 1px solid #a63f38;
+  justify-content: space-around;
 }
