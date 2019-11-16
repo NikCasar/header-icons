@@ -67,12 +67,24 @@ nav li {
   justify-content: space-around;
 }
 
+.btn-cereals:hover {
+  background-color: #a63f38;
+}
+
 .btn-home {
   outline: 1px solid #a63f38;
   justify-content: space-around;
 }
 
+.btn-home:hover {
+  background-color: #a63f38;
+}
+
 .btn-legumes {
   outline: 1px solid #a63f38;
   justify-content: space-around;
+}
+
+.btn-legumes:hover {
+  background-color: #a63f38;
 }
